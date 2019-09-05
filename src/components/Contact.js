@@ -1,5 +1,13 @@
 import React from 'react';
+import styled from 'styled-components'
 
-const Contact = () => <h1>Contact</h1>;
+const CenterHeader = styled.h1`
+
+    text-align: center;
+    margin-top: 2rem;
+
+`
+
+const Contact = () => <CenterHeader>Contact</CenterHeader>;
 
 export default Contact;
